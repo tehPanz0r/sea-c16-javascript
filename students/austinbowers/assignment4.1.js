@@ -10,7 +10,7 @@ function stringDelimiter (stringToSplit, separator) {
   for (i = 0; i < a.length; i++) {
     if (a.charAt(i) != separator) {
       word.push(a.charAt(i));
-    } else if (a.charAt(i) === separator) {
+    } else if (a.charAt(i) === git separator) {
       wordConstructor = word.join("");
       complete.push(wordConstructor);
       while (word.length > 0) {
